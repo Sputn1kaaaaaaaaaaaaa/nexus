@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#090E16">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <title>NEXUS</title>
+</head>
+<body>
+  <div id="app" class="booting">
+    <header id="titlebar">
+      <span class="brand">NEXUS</span>
+      <nav id="menubar" role="menubar" aria-label="Application menu"></nav>
+      <span id="project-name" title=""></span>
+      <div id="title-actions"></div>
+    </header>
+    <div id="workbench">
+      <aside id="sidebar" aria-label="Side bar">
+        <div class="side-head">
+          <div class="side-tabs" role="tablist"></div>
+          <div class="side-actions"></div>
+        </div>
+        <div class="side-body"></div>
+      </aside>
+      <div class="sash" id="sash-side"></div>
+      <section id="center">
+        <div id="editor-area">
+          <div id="tabbar" role="tablist" aria-label="Open files"></div>
+          <div id="editors"></div>
+          <div id="welcome" tabindex="-1"></div>
+        </div>
+        <div class="sash" id="sash-panel"></div>
+        <section id="panel" aria-label="Panel">
+          <div class="panel-head">
+            <div class="panel-tabs" role="tablist"></div>
+            <div class="panel-tools"></div>
+          </div>
+          <div class="panel-body"></div>
+        </section>
+      </section>
+    </div>
+    <footer id="statusbar"></footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

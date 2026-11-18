@@ -1,0 +1,13 @@
+{
+  "name": "NEXUS",
+  "short_name": "NEXUS",
+  "description": "Pocket development environment",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090E16",
+  "theme_color": "#090E16",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

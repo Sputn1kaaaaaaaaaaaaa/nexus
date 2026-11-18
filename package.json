@@ -1,0 +1,19 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "description": "NEXUS - a pocket, keyboard-first development environment for Termux",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite build && node server/index.js",
+    "serve": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
